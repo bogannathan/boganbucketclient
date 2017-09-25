@@ -12,7 +12,7 @@ import {
 	}from './types';
 import authReducer from '../reducers/auth_reducer';
 
-const ROOT_URL = 'https://boganbucketserver.herokuapp.com/';
+const ROOT_URL = 'https://boganbucketserver.herokuapp.com/api';
 
 let config = {
 	headers: { authorization: localStorage.getItem('token') }
