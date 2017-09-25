@@ -4,7 +4,7 @@ import { fetchPost, deletePost } from '../../actions/index';
 import { Link, browserHistory } from 'react-router';
 import axios from 'axios';
 
-const ROOT_URL = 'http://localhost:3000';
+const ROOT_URL = 'https://boganbucketserver.herokuapp.com/';
 const config = {
 	headers: { authorization: localStorage.getItem('token') }
 }
